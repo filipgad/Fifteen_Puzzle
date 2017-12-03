@@ -8,3 +8,22 @@
 body {
   background-color: #f7f7f7;
 }
+
+#game-board {
+  margin: 50 auto;
+  border: 5px solid #000;
+  width: 400px;
+  height: 400px;
+}
+
+.tile {
+  display: inline-block;
+  width: 23%;
+  height: 23%;
+  margin: 1%;
+  border: 1px solid red;
+}
+
+.empty {
+  @extend .tile;
+}
